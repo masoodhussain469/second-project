@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0%;
+}body{
+    padding:0 30px;
+}
+
+.first{
+    margin: 20px;
+    display: flex;
+   justify-content: flex-end;
+}
+.para{
+    padding:0 10px;
+
+}
+.heading{
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.list li{
+    list-style: none;
+   display: inline-block;
+    margin: 20px;
+    padding:0 10px;
+    border-right: 1px solid black;
+}
+.para-3{
+    padding:20px 0;
+}
+.list li:hover{
+    background-color: blue;
+    cursor: pointer;
+    border-radius: 5px;
+    color: red;
+}
+.list li:nth-child(5){
+    border-right: none;
+}
+.container{
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    min-height: 65vh;
+}
+.container .card{
+    width: 30%;
+    /* height: 300px; */
+    padding: 20px;
+}
+.container .card img{
+    width: 100%;
+    height: 80%;
+}
+.subscription{
+    background-color:rgb(231, 226, 226);
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.email-input {
+    margin-top: 15px;
+    padding: 5px 10px;
+    width: 223px;
+    border-radius: 5px;
+    background-color: rgb(231, 226, 226);
+}
+.btn{
+    padding: 5px 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    color: red;
+    background-color: rgb(231, 226, 226); 
+}
+.btn:hover{
+
+    border-color: blue;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: blue;
+}
+.para-1{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+}
+.container-2{
+    display: flex;
+    justify-content: space-between;
+
+}
+.container-2 .card-2{
+    width: 300px;
+    padding: 40px 0;
+}
+.container-2 div h2{
+    color: white;
+}
+.container-2 .card-2 img{
+    width: 100%;
+    height: 200px;
+    padding-bottom: 30px;
+}
+.card-2 a{
+    color: red;
+}
+.para-2{
+    padding: 10px 0;
+}
+.About-site{
+    background-color:grey;
+    display: flex;
+    justify-content: space-around;
+
+}
+.About-site .Divisions{
+    width: 300px;
+    padding: 60px 0;
+}
+/* .Divisions ul{
+    text-decoration: underline;
+} */
+.list-1 li{
+    padding:5px;
+    list-style: none;
+    text-decoration-line: underline;
+}
+.btn-1{
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: red;
+    background-color: grey;
+    width: 90px;
+    height: 40px;
+}
+.input{
+    margin:10px 0;
+   padding-left: 5px;
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: grey;
+    cursor: pointer;
+}
+.inputmsg{
+    border: black solid 2px;
+    background-color: grey;
+    border-radius: 5px;
+    padding-left: 5px;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+p a{
+    color: red;
+}
+.Divisions h2{
+    color: white;
+    margin: 20px 0;
+}
+.btn-1:hover{
+    cursor: pointer;
+    background-color: blue;
+    border-radius: 5px;
+    text-decoration: underline;
+}
